@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Div, span, id and class</title>
+  <style>
+    .card {
+      border: 1px solid #ccc;
+      background: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+    .enhance{
+      color:yellow;
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main-header" class="card">
+    <!-- or <div class="main-header card"> -->
+    <h1>MY website</h1>
+    <p>A site about me</p>
+  </div>
+  <ul id="main-nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <div id="about" class="card">
+    <h3>About</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus cumque voluptatum, voluptate sunt tempore
+      reprehenderit molestiae <span class="enhance">laborum consequuntur corporis quo, pariatur, modi temporibus</span> ipsam. Esse repellat quaerat
+      ut voluptatum fuga.</p>
+  </div>
+  <div id="contact" class="card">
+    <h3>Contact Me</h3>
+    <ul>
+      <li>Address: 35/75</li>
+      <li>Phone: 0816117022</li>
+    </ul>
+  </div>
+<div id="footer">
+  <p>Copyright &copy; 2022</p>
+</div>
+</body>
+
+</html>
